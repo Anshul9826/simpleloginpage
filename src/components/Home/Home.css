@@ -1,0 +1,22 @@
+.home{
+    height: 100vh;
+}
+.bg-home img{
+    width: 750px;
+}
+.active{
+    display: none;
+}
+@media (max-width: 1199.98px) {
+    .bg-home img{
+        width: 650px;
+    }
+}
+@media (max-width: 999.98px) {
+    .bg-home{
+        display: none;
+    }
+    .loginForm{
+        margin: auto;
+    }
+}
